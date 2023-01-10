@@ -57,7 +57,7 @@ tasks.addEventListener('click', (e) => {
   }
 })
 //chú ý: lỗi đả sữa ko đc để khoảng trong giữa các thẻ trong html
-function todofiler(e) {
+function todofiler(e) { 
   const todos = tasks.childNodes;
   todos.forEach(function (item) {
     switch (e.target.value) {
@@ -85,3 +85,4 @@ function todofiler(e) {
 
 }
 
+// chu y loi
